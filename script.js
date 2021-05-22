@@ -8,9 +8,6 @@ plus.addEventListener("click", function(){
     costCount();
     totalTax();
     finalCost();
-
-    // let subtotalPlus = increaseTicket * 150;
-    // document.getElementById("subtotalAmount").innerText = subtotalPlus;
 })
 
 let minus = document.getElementById("minusFirst");
@@ -23,9 +20,6 @@ minus.addEventListener("click", function(){
     costCount();
     totalTax();
     finalCost();
-
-    // let subtotalMinus = decreaseTicket * 150;
-    // document.getElementById("subtotalAmount").innerText = subtotalMinus;
 })
 
 let ecoPlus = document.getElementById("plusEco");
@@ -38,10 +32,6 @@ ecoPlus.addEventListener("click",function(){
     costCount();
     totalTax();
     finalCost();
-
-    // let subtotalPlusEco = increaseTicketEco * 100;
-    // document.getElementById("subtotalAmount").innerText = subtotalPlusEco;
-
 })
 
 let ecoMinus = document.getElementById("minusEco");
@@ -54,10 +44,6 @@ ecoMinus.addEventListener("click",function(){
     costCount();
     totalTax();
     finalCost();
-
-    // let subtotalMinusEco = decreaseTicketEco * 100;
-    // document.getElementById("subtotalAmount").innerText = subtotalMinusEco;
-
 })
 
 function costCount (){
